@@ -70,12 +70,12 @@ body{
 }
 /* Style do antecessor do footer (contem minhas habilidades)*/
 .prefooter {
-    background-color: #2d959e;
+    background-color: #ccc; /* white */
     padding: 50px;
-    border-top: 10px solid white;
-    border-left: 100px solid #2d959e;
-    border-right: 100px solid #2d959e;
-    border-bottom: 10px solid white;
+    border-top: 15px solid #2d959e; /* #2d959e */
+    border-left: 100px solid #ccc; /* white */
+    border-right: 100px solid #ccc; /* white */
+    border-bottom: 15px solid #2d959e; /* #2d959e */
 }
 .prefooter-int {
     width: 900px;
@@ -84,13 +84,12 @@ body{
 }
 .prefooter-int li {
     list-style: none;
-    color: #ccc;
+    font-weight: bold;
 }
 .prefooter-int .ulp {
     width: 300px;
     height: 100px;
     border: 4px solid #003249;
-    background-color: darkslategrey;
     border-radius: 20px;
     line-height: 18px;
     text-align: center;
@@ -102,13 +101,13 @@ body{
     height: 100px;
     margin-left: 270px;
     border: 4px solid #003249;
-    background-color: darkslategrey;
     border-radius: 20px;
     line-height: 18px;
     text-align: center;
 }
 .prefooter-int h3 {
     margin-top: 10px;
+    font-style: italic;
 }
 .prefooter-int .ulp li:nth-of-type(1) {
     margin-top: 30px;
