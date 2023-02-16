@@ -7,6 +7,7 @@ img {
 }
 body{
     font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
 }
 /* Style da minha parte superior (contem links e habilidades)*/
 .header {
@@ -33,6 +34,8 @@ body{
 .header h3:nth-of-type(1) {
     margin-right: 300px;
 }
+
+/* Style da minha parte intermediaria (contem minha foto, nome e mini biografia*/
 .subheader {
     padding: 50px;
     background-color: darkslategrey;
@@ -65,35 +68,51 @@ body{
     margin-left: 170px;
     line-height: 18px;
 }
+/* Style do antecessor do footer (contem minhas habilidades)*/
 .prefooter {
-    background-color: aqua;
+    background-color: #2d959e;
     padding: 50px;
+    border-top: 10px solid white;
+    border-left: 100px solid #2d959e;
+    border-right: 100px solid #2d959e;
+    border-bottom: 10px solid white;
 }
 .prefooter-int {
     width: 900px;
-    padding: 30px;
+    padding: 50px;
     margin: auto;
 }
 .prefooter-int li {
     list-style: none;
+    color: #ccc;
 }
 .prefooter-int .ulp {
-    display: inline-block;
     width: 300px;
-    padding: 50px;
-    border: 2px solid #003249;
+    height: 100px;
+    border: 4px solid #003249;
+    background-color: darkslategrey;
     border-radius: 20px;
     line-height: 18px;
+    text-align: center;
+    float: left;
 }
 .prefooter-int .uls {
     display: inline-block;
     width: 300px;
-    padding: 40px;
-    margin-left: 100px;
-    border: 2px solid #003249;
+    height: 100px;
+    margin-left: 270px;
+    border: 4px solid #003249;
+    background-color: darkslategrey;
     border-radius: 20px;
     line-height: 18px;
+    text-align: center;
 }
-.prefooter-int li:nth-of-type(1) {
-    margin-top: 15px;
+.prefooter-int h3 {
+    margin-top: 10px;
+}
+.prefooter-int .ulp li:nth-of-type(1) {
+    margin-top: 30px;
+}
+.prefooter-int .uls li:nth-of-type(1) {
+    margin-top: 13px;
 }
